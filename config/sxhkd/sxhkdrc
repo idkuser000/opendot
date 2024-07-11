@@ -1,0 +1,43 @@
+# keybindings
+
+# terminal
+super + Return
+	urxvt
+
+# launcher
+super + a
+	rofi -show drun
+
+# window menu
+super + Tab
+    rofi -show window
+
+# screenshot
+Print
+  bash "$HOME"/.config/bin/screenshot
+super + Delete
+  bash "$HOME"/.config/bin/screenshot
+  
+# battery state
+super + F7
+    bash "$HOME"/.config/bin/batterynoti --display
+
+# volume
+super + ctrl + {minus,plus,0}
+    bash "$HOME"/.config/bin/volume {--down,--up,--toggle}
+{XF86AudioLowerVolume,XF86AudioRaiseVolume,XF86AudioMute}
+    bash "$HOME"/.config/bin/volume {--down,--up,--toggle}
+    
+# bluetooth
+super + b
+    bash "$HOME"/.config/bin/bluetooth   
+        
+# view connection
+super + w
+    bash "$HOME"/.config/bin/connection
+    
+# brightness
+super + ctrl + bracket{left,right}
+    bash "$HOME"/.config/bin/brightness {--down,--up}
+{XF86MonBrightnessDown,XF86MonBrightnessUp}
+    bash "$HOME"/.config/bin/brightness {--down,--up}
