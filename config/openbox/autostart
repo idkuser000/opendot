@@ -3,4 +3,5 @@ feh --bg-scale "$HOME"/Pictures/Wallpapers/cac.jpg &
 fcitx5 &
 picom &
 tint2 -c "$HOME"/.config/openbox/tint2 &
-dunst
+dunst &
+xrdb .Xresources
