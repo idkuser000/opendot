@@ -19,4 +19,6 @@ Hello! This is my personal Openbox setup.
 6. Copy the "local/share/rofi/themes/light.rasi" to your system's ".local/share/rofi/themes" (you may need to create that folder first)
 7. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
 
+Also, thanks Stardust-kyun! The bar and the theme was heavily inspired/taken by his repository.
+
 This is my first time upload a dotfile to GitHub, so it is still incomplete. If you had any problems, DMs to my Discord: thetfs0! :)
