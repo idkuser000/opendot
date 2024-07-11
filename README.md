@@ -8,6 +8,7 @@ Hello! This is my personal Openbox setup.
 - `dunst`: Notification
 - `tint2`: Bar
 - `rofi`: Launcher
+- `firefox`: Browser
 - `Comic Mono`, `Symbols Nerd Font`: Fonts
 
 # Installation (manually)
