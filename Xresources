@@ -1,0 +1,66 @@
+#define BG #f6f6f6
+#define FG #262626
+#define BL #404040
+#define WH #dce6e6
+#define R #e68383
+#define G #a0e6af
+#define Y #ffcd96
+#define B #83b4e6
+#define M #e1aae1
+#define C #8cd7d2
+
+URxvt.font: xft:Comic Mono:pixelsize=13
+urxvt*termName: rxvt
+urxvt*scrollBar: false
+urxvt*matcher.button: 1
+urxvt.transparent: false
+urxvt.boldFont:
+Xft*dpi: 100 
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
+Xft*rgba: rgb
+URxvt*geometry: 85x30
+*internalBorder: 23
+URxvt*fading: 0
+URxvt*tintColor: #ffffff
+URxvt*shading: 0
+URxvt*inheritPixmap: False
+
+
+! special
+*.foreground:   FG
+*.background:   BG
+*.cursorColor:  FG
+
+! black
+*.color0:       BL
+*.color8:       BL
+
+! red
+*.color1:       R
+*.color9:       R
+
+! green
+*.color2:       G
+*.color10:      G
+
+! yellow
+*.color3:       Y
+*.color11:      Y
+
+! blue
+*.color4:       B
+*.color12:      B
+
+! magenta
+*.color5:       M
+*.color13:      M
+
+! cyan
+*.color6:       C
+*.color14:      C
+
+! white
+*.color7:       WH
+*.color15:      WH
