@@ -17,7 +17,8 @@ Hello! This is my personal Openbox setup.
 4. Copy all folders in "config" to your user's config folder (~/.config)
 5. Copy all folders in "usr/share/themes" to your system's /usr/share/themes
 6. Copy the "local/share/rofi/themes/light.rasi" to your system's ".local/share/rofi/themes" (you may need to create that folder first)
-7. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
+7. Move the file ".Xresources" to your home directory
+8. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
 
 Also, thanks Stardust-kyun! The bar and the theme was heavily inspired/taken by his repository.
 
