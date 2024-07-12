@@ -9,6 +9,8 @@ Hello! This is my personal Openbox setup.
 - `tint2`: Bar
 - `rofi`: Launcher
 - `firefox`: Browser
+- `cron/cronie`: Daily script
+- `betterlockscreen`: Lock screen
 - `Comic Mono`, `Symbols Nerd Font`: Fonts
 
 # Installation (manually)
