@@ -21,13 +21,14 @@ Hello! This is my personal Openbox setup.
 3. Type "cd randomdot" in your terminal
 4. Copy all folders in ".config" to your user's config folder (~/.config)
 5. Copy the folder in "usr/share/themes" to /usr/share/themes
-6. Copy the ".local/share/rofi/themes/light.rasi" to "`~/.local/share/rofi/themes" (you may need to create that folder first)
+6. Copy the ".local/share/rofi/themes/light.rasi" to "~/.local/share/rofi/themes" (you may need to create that folder first)
 7. Move the file ".Xresources" to your home directory
-8. Move the file ".zshrc" to your home directory
+8. Move the file ".zshrc" to your home directory and change the default shell to zsh
 9. Move the battery-alert file in "bin" to /bin (you will need to run it as root)
 10. Run the command "crontab -e" then add this line to that: */5 * * * * bash /bin/battery-alert then save it
 11. Move the folder Wallpapers to your home directory's "Pictures" folder
-12. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
+12. Move all files in "usr/share/fonts" to /usr/share/fonts then run sudo fc-cache -vf
+13. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
 
 Thanks Stardust-kyun for inspired me the bar theme.
 
