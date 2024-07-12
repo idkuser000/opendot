@@ -18,6 +18,10 @@ Print
 super + Delete
   bash "$HOME"/.config/bin/screenshot
 
+# lock
+super + l
+    betterlockscreen -l
+
 # volume
 super + ctrl + {minus,plus,0}
     bash "$HOME"/.config/bin/volume {--down,--up,--toggle}
