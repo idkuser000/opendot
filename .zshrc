@@ -18,14 +18,10 @@ if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 fi
 
 # Vars
-export TERMINAL="alacritty"
+export TERMINAL="urxvt"
 export BROWSER="firefox"
 export EDITOR="nvim"
 export VISUAL="${EDITOR}"
-export GTK_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-export QT_IM_MODULE="wayland;fcitx"
-export HYPRSHOT_DIR=/home/lhlab/Pictures/Screenshots
 
 # Aliases
 alias pls='sudo'
@@ -44,12 +40,12 @@ HISTSIZE=1000
 SAVEHIST=1000
 bindkey -v
 
-# cute sudo
-export SUDO_PROMPT="Can I get %u's password? "
+# Sudo
+export SUDO_PROMPT="type %u's password: "
 
-# not found
+# Command not found
 command_not_found_handler() {
-	printf "%s%s? what?\n" "$acc" "$0" >&2
+	printf "%s%s? no such file or directory" "$acc" "$0" >&2
     return 127
 }
 
