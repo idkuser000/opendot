@@ -1,6 +1,5 @@
 sxhkd &
-feh --bg-scale "$HOME"/Pictures/Wallpapers/cac.jpg &
-fcitx5 &
+feh --bg-scale "$HOME"/Pictures/Wallpapers/bg.jpg &
 picom &
 tint2 -c "$HOME"/.config/openbox/tint2 &
 dunst &
