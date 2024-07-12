@@ -20,8 +20,9 @@ Hello! This is my personal Openbox setup.
 6. Copy the ".local/share/rofi/themes/light.rasi" to "`~/.local/share/rofi/themes" (you may need to create that folder first)
 7. Move the file ".Xresources" to your home directory
 8. Move the file ".zshrc" to your home directory
-9. Move the folder Wallpapers to your home directory's "Pictures" folder
-10. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
+9. Move the battery-alert file in "bin" to /bin (you will need to run it as root)
+10. Move the folder Wallpapers to your home directory's "Pictures" folder
+11. Open "Rofi Theme Selector" then type light, then press Enter and press Alt+A
 
 Thanks Stardust-kyun for inspired me the bar theme.
 
