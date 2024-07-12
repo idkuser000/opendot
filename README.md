@@ -14,7 +14,7 @@ Hello! This is my personal Openbox setup.
 # Installation (manually)
 1. Install all the necessary dependencies
 2. Clone the repository
-3. Type "cd opendot" in your terminal
+3. Type "cd randomdot" in your terminal
 4. Copy all folders in ".config" to your user's config folder (~/.config)
 5. Copy the folder in "usr/share/themes" to /usr/share/themes
 6. Copy the ".local/share/rofi/themes/light.rasi" to "`~/.local/share/rofi/themes" (you may need to create that folder first)
