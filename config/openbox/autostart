@@ -1,7 +1,0 @@
-sxhkd &
-feh --bg-scale "$HOME"/Pictures/Wallpapers/bg.jpg &
-fcitx5 &
-picom &
-tint2 -c "$HOME"/.config/openbox/tint2 &
-dunst &
-xrdb .Xresources
