@@ -11,6 +11,8 @@ Hello! This is my personal Openbox setup.
 - `firefox`: Browser
 - `cron/cronie`: Daily script
 - `betterlockscreen`: Lock screen
+- `gedit`: Text editor
+- `obconf`: Openbox configuration
 - `Comic Mono`, `Symbols Nerd Font`: Fonts
 
 # Installation (manually)
