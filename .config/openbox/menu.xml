@@ -4,9 +4,9 @@
   xsi:schemaLocation="https://openbox.org/">
     <menu id="root-menu" label="Openbox">
 		    <seperator label="Menu"/>
-		    <item label="Run command">
+		    <item label="Menu">
 				    <action name="Execute">
-						    <command>rofi -show run</command>
+						    <command>bash ~/.config/bin/menu</command>
 				    </action>
 		    </item>
 		    <seperator/>
@@ -33,7 +33,7 @@
 					<command>gedit ~/.config/openbox/autostart</command>
 				</action>
 			</item>
-			<item label="Openbox config">
+			<item label="Openbox settings">
 				<action name="Execute">
 					<command>obconf</command>
 				</action>
