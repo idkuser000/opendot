@@ -35,8 +35,8 @@ panel_window_name = tint2
 # Applications
 button = new
 button_padding = 15 15
-button_text = 
-button_lclick_command = rofi -show drun
+button_text = 󰍜
+button_lclick_command = bash ~/.config/bin/menu
 button_font = Symbols Nerd Font 14
 button_font_color = #262626 100
 button_background_id = 2
@@ -54,14 +54,6 @@ button = new
 button_padding = 15 15
 button_text = 󰈹
 button_lclick_command = firefox
-button_font = Symbols Nerd Font 14
-button_font_color = #262626 100
- 
-# Connection (Wi-Fi)
-button = new
-button_padding = 15 15
-button_text = 
-button_lclick_command = bash ~/.config/bin/connection
 button_font = Symbols Nerd Font 14
 button_font_color = #262626 100
 
